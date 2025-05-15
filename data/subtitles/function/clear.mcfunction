@@ -1,0 +1,1 @@
+function subtitles:clear_player with storage subtitles:main {}
