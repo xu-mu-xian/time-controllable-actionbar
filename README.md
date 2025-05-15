@@ -1,9 +1,1 @@
-在显示字幕之前请在命令存储subtitles:main中定义如下内容：
-根标签
-┖（字符串）targets: 接受这个字幕的玩家。
-┖ content: 文本组件，字幕内容。注意，字符串形式的文本组件会造成函数实例化错误，应在字符串引号外层再嵌套一层引号。
-┖（整型）time: 字幕持续时长，必须为游戏刻。
 
-命令模板：
-data merge storage subtitles:main {targets:"<目标>",content:<文本组件>,time:<时间>}
-function subtitles:main
